@@ -15,13 +15,13 @@ read -p "Enter your port(suggest 3389): " PORT
 echo "
 {
     "\"server\":"\"$SERVERIP\",
-    \"server_port\": "\"$PORT\",
+    "\"server_port\": "\"$PORT\",
     "\"local_address\": "\"127.0.0.1\",
-    \"local_port\":1080,
+    "\"local_port\":1080,
     "\"password\":"\"$PASSWORD\",
-    \"timeout\":300,
+    "\"timeout\":300,
     "\"method\":"\"aes-256-cfb\",
-    \"fast_open\": true
+    "\"fast_open\": true
 }
 " | sudo tee --append /etc/shadowsocks.json
 
