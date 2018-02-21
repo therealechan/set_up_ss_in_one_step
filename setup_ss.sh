@@ -9,7 +9,6 @@ sudo pip install shadowsocks
 # set parameters
 read -p "Enter your server ip: " SERVERIP
 read -p "Enter your password: " PASSWORD
-read -p "Enter your port(suggest 3389): " PORT
 
 # create config file
 echo "
