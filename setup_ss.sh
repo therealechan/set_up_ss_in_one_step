@@ -15,7 +15,7 @@ read -p "Enter your port(suggest 3389): " PORT
 echo "
 {
     "\"server\":"\"$SERVERIP\",
-    "\"server_port\":"\"$PORT\",
+    \"server_port\":3389,
     "\"local_address\": "\"127.0.0.1\",
     \"local_port\":1080,
     "\"password\":"\"$PASSWORD\",
